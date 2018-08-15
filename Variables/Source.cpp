@@ -15,7 +15,7 @@ int main()
 	int sum;
 	numA = 14;
 	numB = 2;
-	sum = numA + numB;
+	sum = numA + numB; 
 	std::cout << sum << std::endl;
 
 	float numC;
