@@ -34,10 +34,7 @@ int main()
 		system("pause");
 	}
 
-
-
 	// Exercizes
-
 
 	{
 		// A)
@@ -95,6 +92,8 @@ int main()
 
 	// Celsius to Fahrenheit
 	{
+		//takes Celsius inputted from user and converts it into Fahrenheit
+
 		float degCelsius = 78.0f;
 		float degFahrenheit = 0.0f; // Modify this variable below.
 
@@ -109,6 +108,8 @@ int main()
 
 	// Area of a Rectangle
 	{
+		//takes the width and height inputted from user and converts it into the area of a rectangle
+
 		float rectWidth = 0.0f; // Modify this variable below.
 		float rectHeight = 0.0f; // Modify this variable below.
 		float rectArea = 0.0f; // Modify this variable below.
@@ -128,6 +129,8 @@ int main()
 
 	// Average of Five
 	{
+		//finds the average of 5 numbers
+
 		float a, b, c, d, e;	// Modify these variables below.
 		float avg;				// Modify this variable below.
 		avg = a = b = c = d = e = 0.0f; // Initialize all to zero.
@@ -148,6 +151,8 @@ int main()
 
 	// Number Swap
 	{
+		//swaps 2 numbers inputted from user
+
 		int x = 13;
 		int y = 24;
 
@@ -171,6 +176,8 @@ int main()
 
 	// Fun Facts for Your Age
 	{
+		//gives months, weeks, minutes and seconds alive from inputted age from user
+
 		int age = 0;
 
 		// <Your work can go here.>
@@ -213,10 +220,12 @@ int main()
 		system("pause");
 	}
 
-	// Challenges
-	{
-		// The Right Tool for the Job)
 
+	// Challenges
+
+
+	// The Right Tool for the Job)
+	{
 		//int // 16-bit integer
 		//long // 32-bit integer
 		//unsigned // can only store positive numbers
@@ -231,6 +240,8 @@ int main()
 
 	// Number Swap (Difficulty Up)
 	{
+		//swaps a number inputted from user without using a temp int
+
 		int x = 13;
 		int y = 24;
 
