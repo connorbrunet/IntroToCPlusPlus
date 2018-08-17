@@ -204,7 +204,7 @@ int main()
 		std::cout << minute << " minutes is " << second << " seconds!\n";
 	}
 
-	// Conforming to Conventions)
+	// Conforming to Conventions
 	{
 		int age;
 		int bullet_count;
@@ -224,7 +224,7 @@ int main()
 	// Challenges
 
 
-	// The Right Tool for the Job)
+	// The Right Tool for the Job
 	{
 		//int // 16-bit integer
 		//long // 32-bit integer
