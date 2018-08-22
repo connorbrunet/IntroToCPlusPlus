@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCPP", "Project1\Proj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Variables", "Variables\Variables.vcxproj", "{754AB108-049C-4AD7-A28A-6E4F41A0D44D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Conditional Statements", "Conditional Statements\Conditional Statements.vcxproj", "{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{754AB108-049C-4AD7-A28A-6E4F41A0D44D}.Release|x64.Build.0 = Release|x64
 		{754AB108-049C-4AD7-A28A-6E4F41A0D44D}.Release|x86.ActiveCfg = Release|Win32
 		{754AB108-049C-4AD7-A28A-6E4F41A0D44D}.Release|x86.Build.0 = Release|Win32
+		{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}.Debug|x64.ActiveCfg = Debug|x64
+		{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}.Debug|x64.Build.0 = Debug|x64
+		{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}.Debug|x86.Build.0 = Debug|Win32
+		{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}.Release|x64.ActiveCfg = Release|x64
+		{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}.Release|x64.Build.0 = Release|x64
+		{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}.Release|x86.ActiveCfg = Release|Win32
+		{ECC652BA-4C6E-4279-A767-C85CFB4B1FD8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
