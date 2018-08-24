@@ -41,8 +41,7 @@ int main()
 	}
 
 	//FizzBuzz
-	{
-		/*int input = 0;
+	/*int input = 0;
 		std::cout << "Enter a number\n";
 		std::cin >> input;
 
@@ -63,7 +62,6 @@ int main()
 		{
 			std::cout << input << std::endl;
 		}*/
-	}
 
 	//Add or Subtract
 	{
@@ -119,20 +117,22 @@ int main()
 	}
 
 	//Homework
-
 	{
-
-		//1)
-
-		/*int y, x;
-		y = 0;
-
-		if (y == 0)
 		{
-			x = 100;
-		}
 
-		std::cout << x << std::endl;*/
+			//1)
+
+			/*int y, x;
+			y = 0;
+
+			if (y == 0)
+			{
+				x = 100;
+			}
+
+			std::cout << x << std::endl;*/
+
+		}
 
 		//2)
 
@@ -148,52 +148,153 @@ int main()
 		else
 			std::cout << num1;*/
 
-		//3) (finish this later)
+			//3) 
 
-		/*int a, b, c, d, e;
-		std::cout << "Enter 5 Numbers";
-		std::cin >> a >> b >> c >> d >> e;
+			int a, b, c, d, e;
+			//Poll input for five values
+			std::cout << "Enter 5 Numbers";
+			std::cin >> a >> b >> c >> d >> e;
+			//Check if positive sum
+				//Sort in ascending order
+				//Find greatest value - a
+					//Find 2nd value - b
+						//Find 3rd value - c
+							//Find 4th value - d
+								//Find 5th value				
+							//Find 4th value - e
+								//Find 5th value
+						//Find 3rd value - d
+							//Find 4th value
+								//Find 5th value
+						//Find 3rd value - e
+							//Find 4th value
+								//Find 5th value				
+					//Find 2nd value - c
+						//Find 3rd value
+							//Find 4th value
+								//Find 5th value
+					//Find 2nd value - d
+						//Find 3rd value
+							//Find 4th value
+								//Find 5th value
+					//Find 2nd value - e
+						//Find 3rd value
+							//Find 4th value
+								//Find 5th value
+			//else if negative sum
+				//sort in ascending order
+			//else
+				//output in same order input
 
-		if (a > b && b > c && c > d && d > e)
-		{
-			std::cout << a << b << c << d << e << std::endl;
-		}*/
 
-		//4)
+			if (a > b && b > c && c > d && d > e)
+			{
+				std::cout << a << b << c << d << e << std::endl;
+			}
 
-		/*int userInput;
-		std::cout << "Enter 1 2 3 or 4\n";
-		std::cin >> userInput;
-		switch (userInput)
+			//4)
+
+			/*int userInput;
+			std::cout << "Enter 1 2 3 or 4\n";
+			std::cin >> userInput;
+			switch (userInput)
+			{
+			case 1:
+				std::cout << "1\n" << std::endl;
+				break;
+			case 2:
+				std::cout << "2 or 3\n" << std::endl;
+				break;
+			case 3:
+				std::cout << "2 or 3\n" << std::endl;
+				break;
+			case 4:
+				std::cout << "4\n" << std::endl;
+				break;
+			default:
+				std::cout << "Invalid\n" << std::endl;
+				break;*/
+
+				//5)
+
+				//result = (value1 < value2) ? 24 : 16;
+
+				//6)
+
+			/*int num1, num2;
+			char operation;
+
+			std::cout << "enter 2 numbers\n";
+			std::cin >> num1 >> num2;
+			std::cout << "add(+), subtract(-), multiply(*), divide(/) or mod(%)\n";
+			std::cin >> operation;
+
+			switch (operation)
+			{
+			case '+':
+				std::cout << num1 + num2 << std::endl;
+				break;
+			case '-':
+				std::cout << num1 - num2 << std::endl;
+				break;
+			case '*':
+				std::cout << num1 * num2 << std::endl;
+				break;
+			case '/':
+				std::cout << num1 / num2 << std::endl;
+				break;
+			case '%':
+				std::cout << num1 % num2 << std::endl;
+				break;
+			}*/
+
+		//7)
+
+		int month;
+		std::cout << "input a number that represents a month of the year" << std::endl;
+		std::cin >> month;
+		switch (month)
 		{
 		case 1:
-			std::cout << "1\n" << std::endl;
+			std::cout << "31 days." << std::endl;
 			break;
 		case 2:
-			std::cout << "2 or 3\n" << std::endl;
+			std::cout << "28 days and 29 days in leap years." << std::endl;
 			break;
 		case 3:
-			std::cout << "2 or 3\n" << std::endl;
+			std::cout << "31 days." << std::endl;
 			break;
 		case 4:
-			std::cout << "4\n" << std::endl;
+			std::cout << "30 days." << std::endl;
 			break;
-		default:
-			std::cout << "Invalid\n" << std::endl;
-			break;*/
-
-			//5)
-
-			//result = (value1 < value2) ? 24 : 16;
-
+		case 5:
+			std::cout << "31 days." << std::endl;
+			break;
+		case 6:
+			std::cout << "30 days." << std::endl;
+			break;
+		case 7:
+			std::cout << "31 days." << std::endl;
+			break;
+		case 8:
+			std::cout << "31 days." << std::endl;
+			break;
+		case 9:
+			std::cout << "30 days." << std::endl;
+			break;
+		case 10:
+			std::cout << "31 days." << std::endl;
+			break;
+		case 11:
+			std::cout << "30 days." << std::endl;
+			break;
+		case 12:
+			std::cout << "31 days." << std::endl;
+			break;
 
 		}
-	
-		
-
 
 	}
 
 	system("pause");
-
 }
