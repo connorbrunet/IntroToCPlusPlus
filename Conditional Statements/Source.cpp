@@ -148,19 +148,52 @@ int main()
 		else
 			std::cout << num1;*/
 
-		//3)
-		
-		int a, b, c, d, e;
+		//3) (finish this later)
+
+		/*int a, b, c, d, e;
 		std::cout << "Enter 5 Numbers";
 		std::cin >> a >> b >> c >> d >> e;
 
-		if (a > b && a > c && a > d && a > e)
+		if (a > b && b > c && c > d && d > e)
 		{
-			std::cout << a << b << c << d << e;
+			std::cout << a << b << c << d << e << std::endl;
+		}*/
+
+		//4)
+
+		/*int userInput;
+		std::cout << "Enter 1 2 3 or 4\n";
+		std::cin >> userInput;
+		switch (userInput)
+		{
+		case 1:
+			std::cout << "1\n" << std::endl;
+			break;
+		case 2:
+			std::cout << "2 or 3\n" << std::endl;
+			break;
+		case 3:
+			std::cout << "2 or 3\n" << std::endl;
+			break;
+		case 4:
+			std::cout << "4\n" << std::endl;
+			break;
+		default:
+			std::cout << "Invalid\n" << std::endl;
+			break;*/
+
+			//5)
+
+			//result = (value1 < value2) ? 24 : 16;
+
+
 		}
+	
+		
 
 
 	}
 
 	system("pause");
+
 }
