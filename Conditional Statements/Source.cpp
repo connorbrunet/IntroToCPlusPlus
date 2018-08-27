@@ -147,7 +147,7 @@ int main()
 
 		//3) 
 
-		//i don't understand how to do this
+		//i still don't understand this at all
 
 		/*int a, b, c, d, e;
 		int num1, num2, num3, num4, num5;
