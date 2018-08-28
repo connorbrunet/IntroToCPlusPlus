@@ -49,7 +49,7 @@ int main()
 			}
 	}
 
-	//Exersises
+	//Exercises
 	{
 		//1)
 		{
