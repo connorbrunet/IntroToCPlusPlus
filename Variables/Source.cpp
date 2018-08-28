@@ -259,8 +259,7 @@ int main()
 		std::cout << "Number Swap)" << std::endl;
 		std::cout << "x is " << x << std::endl;
 		std::cout << "y is " << y << std::endl;
-
-
-		system("pause");
 	}
+
+	system("pause");
 }
