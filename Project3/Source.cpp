@@ -23,7 +23,7 @@ int main()
 		std::cout << count << std::endl;
 	}*/
 
-	{
+	/*{
 		char one[] = "click";
 		char two[] = "clique";
 
@@ -62,7 +62,22 @@ int main()
 			same = false;
 		}
 		std::cout << same << std::endl;
+	}*/
+
+	//Homework 
+
+	//1)
+
+	char name[255];
+
+	std::cout << "Enter Your Full Name" << std::endl;
+	std::cin.getline(name, 255);
+	for (int i = 0; i < 255; i--);
+	{
+		std::cout << "Hello, " << name << "!\n";
 	}
+
+	//2)
 
 	system("pause");
 }
