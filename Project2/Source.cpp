@@ -50,6 +50,7 @@ int main()
 		std::cout << "enter 5 numbers\n";
 		std::cin >> data2[5];
 		std::cout << data2 << std::endl;
+
 	}
 
 	system("pause");
