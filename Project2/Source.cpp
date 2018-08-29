@@ -48,13 +48,9 @@ int main()
 	int data2[5] = { 1, 2, 3, 4, 5 };
 	{
 		std::cout << "enter 5 numbers\n";
-		std::cin >> 1 >> 2 >> 3 >> 4 >> 5;
-		for (data2)
+		std::cin >> data2[5];
+		std::cout << data2 << std::endl;
 	}
-
-	
-
-
 
 	system("pause");
 }
