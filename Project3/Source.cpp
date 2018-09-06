@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 int main()
 
@@ -68,16 +69,30 @@ int main()
 
 	//1)
 
-	char name[255];
+	char names[5][5];
+	std::string name;
 
-	std::cout << "Enter Your Full Name" << std::endl;
-	std::cin.getline(name, 255);
-	for (int i = 0; i < 255; i--);
+	std::cout << "Enter 5 Names" << std::endl;
+	std::cin >> names[0];
+
+	for (int i = 0; i < 5; i++)
 	{
-		std::cout << "Hello, " << name << "!\n";
+		std::cin.getline >> names[i];
 	}
 
 	//2)
+
+	int i;
+	for (i = name.length() - 1; i >= 0; i--) 
+	{
+		std::cout << name.at(i);
+	}
+
+	std::cout << "\n";
+
+	//3)
+
+
 
 	system("pause");
 }
